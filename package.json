@@ -1,0 +1,21 @@
+{
+  "name": "ai-benefits-discovery",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-Powered Benefits Discovery Flow - MERN monorepo",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  },
+  "dependencies": {
+    "concurrently": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
+

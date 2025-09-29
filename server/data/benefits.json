@@ -1,0 +1,79 @@
+{
+  "Dental": [
+    {
+      "id": "dental-basic-checkup",
+      "title": "Dental Basic Checkup",
+      "coverage": "Covers routine cleaning and exam up to $100",
+      "description": "Annual preventive dental check, including cleaning and x-rays.",
+      "tags": ["cleaning", "x-ray"],
+      "recommended": true
+    },
+    {
+      "id": "dental-emergency",
+      "title": "Dental Emergency Visit",
+      "coverage": "Up to $300 per incident",
+      "description": "Emergency dental consultation and immediate pain relief.",
+      "tags": ["emergency", "pain"]
+    },
+    {
+      "id": "dental-fillings",
+      "title": "Dental Fillings",
+      "coverage": "50% reimbursement, cap $200",
+      "description": "Composite or amalgam fillings for cavities.",
+      "tags": ["cavity", "filling"]
+    }
+  ],
+  "Vision": [
+    {
+      "id": "vision-eye-exam",
+      "title": "Comprehensive Eye Exam",
+      "coverage": "Covers exam up to $80",
+      "description": "Routine eye checkup with refraction test.",
+      "tags": ["exam", "refraction"],
+      "recommended": true
+    },
+    {
+      "id": "vision-glasses",
+      "title": "Glasses Subsidy",
+      "coverage": "$120 towards frames/lenses",
+      "description": "Allowance for prescription glasses or contact lenses.",
+      "tags": ["glasses", "lenses"]
+    }
+  ],
+  "Mental Health": [
+    {
+      "id": "mental-therapy",
+      "title": "Therapy Sessions",
+      "coverage": "Up to 5 sessions, $50 copay",
+      "description": "Short-term counseling with licensed therapist.",
+      "tags": ["therapy", "counseling"],
+      "recommended": true
+    },
+    {
+      "id": "mental-helpline",
+      "title": "24/7 Mental Health Helpline",
+      "coverage": "No cost",
+      "description": "Immediate phone support for stress, anxiety, or crisis.",
+      "tags": ["helpline", "crisis"]
+    }
+  ],
+  "OPD": [
+    {
+      "id": "opd-consult",
+      "title": "General Physician Consult",
+      "coverage": "$20 copay, unlimited visits",
+      "description": "Walk-in clinic visit for common ailments.",
+      "tags": ["fever", "cold"],
+      "recommended": true
+    },
+    {
+      "id": "opd-tests",
+      "title": "Basic Lab Tests",
+      "coverage": "Covers CBC, lipid profile up to $60",
+      "description": "Routine diagnostic tests as prescribed.",
+      "tags": ["lab", "cbc"]
+    }
+  ]
+}
+
+

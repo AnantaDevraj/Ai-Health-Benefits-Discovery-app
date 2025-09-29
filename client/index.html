@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Benefits Discovery</title>
+    <script>
+      // Ensure Tailwind uses class-based dark mode for our toggle (Tailwind CDN API)
+      tailwind = window.tailwind || {};
+      tailwind.config = Object.assign({}, tailwind.config || {}, { darkMode: 'class' });
+      window.tailwind = tailwind;
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+  </html>
+
+
